@@ -37,7 +37,7 @@ public class DBHandler {
        url="jdbc:mysql://localhost:3306/prog_ex_bus?user=root";
 		 user="root";
                  // hier mySQL Workbench password eingeben
-		 password="Yu678954321-"; try{
+		 password="Your Password"; try{
             //connect= DriverManager.getConnection("jdbc:mysql://uu20nc5ew8qyvtni:u6Muqz0qZbHxG2WwN0o5@b8uycnikwqrldx44aozd-mysql.services.clever-cloud.com:3306/b8uycnikwqrldx44aozd","uu20nc5ew8qyvtni","u6Muqz0qZbHxG2WwN0o5" );
             connect= DriverManager.getConnection(url,user,password);
              
